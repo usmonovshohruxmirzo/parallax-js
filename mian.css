@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.main-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  height: 800px;
+  background: #fff;
+}
+.items__layer .box {
+  position: absolute;
+  box-shadow: 0 32px 40px -20px rgba(0, 0, 0, 0.25);
+  background-color: #f00;
+  width: 100px;
+  height: 100px;
+}
+.items__layer:nth-child(1) .box {
+  top: 200px;
+  left: 120px;
+}
+.items__layer:nth-child(2) .box {
+  top: 550px;
+  left: 400px;
+}
+.items__layer:nth-child(3) .box {
+  top: 400px;
+  left: 150px;
+}
+.items__layer:nth-child(4) .box {
+  top: 150px;
+  left: 400px;
+}
+.items__layer:nth-child(5) .box {
+  top: 300px;
+  left: 300px;
+  width: 200px;
+  height: 200px;
+  background: #000;
+}
